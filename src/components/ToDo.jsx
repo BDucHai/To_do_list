@@ -162,7 +162,9 @@ const ToDo = ({ todo: initialTodo, stateSelect, handleSelect, selected }) => {
                                         onClick={handleModifyContent}>
                                         Thay đổi
                                     </div>
-                                    <div className="py-[3px] px-[10px] border-[1px] border-[#848630] bg-[#88c0e9] rounded-[4px] cursor-pointer hover:bg-[#3d9fe8]">
+                                    <div
+                                        className="py-[3px] px-[10px] border-[1px] border-[#848630] bg-[#88c0e9] rounded-[4px] cursor-pointer hover:bg-[#3d9fe8]"
+                                        onClick={() => setModifyContent(false)}>
                                         Hủy
                                     </div>
                                 </div>
